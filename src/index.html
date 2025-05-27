@@ -3,14 +3,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>landing page</title>
-    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <h1 class="font-bold">Hello Khaffy</h1>
-    <div>This is a zobo</div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel vero porro
-      tempore ipsum vitae accusantium ea perferendis.
-    </p>
+    <header class="px-20 py-10 h-screen bg-">
+      <div>
+        <!-- <img src="img/logo.avif" alt="logo-img" class="h-20 w-20" /> -->
+        <a href="#" class="text-primaryColor text-xl font-bold"
+          >Tech book club</a
+        >
+      </div>
+      <div class="mt-[40px] flex items-center justify-between">
+        <div class="basis-1/2">
+          <h1
+            class="text-6xl font-oswald font-bold leading-14 tracking-widest bg-gradient-to-r from-secondaryColor to-primaryColor bg-clip-text text-transparent"
+          >
+            Join the <span class="block">ultimate tech</span
+            ><span class="block"> book club</span>
+          </h1>
+          <p class="mt-5 mr-[55px] text-[16px] font-oswald text-blackColor">
+            Turn your reading time into learning time with fellow tech
+            enthusiasts. Get curated recommendations, join vibrant discussion,
+            and level up your skills one chapter at a time
+          </p>
+          <div
+            class="flex items-center justify-between mt-8 px-5 py-2 border-2 border-primaryColor font-oswald text-[16px] font-bold uppercase w-[60%] rounded-[5px]"
+          >
+            <a href="#" class="">Review membership options</a>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+          <div class="flex items-center mt-5">
+            <div class="flex mr-3">
+              <img
+                src="img/mini-img1.avif"
+                alt="person-img"
+                class="w-10 h-10 rounded-full"
+              />
+              <img
+                src="img/mini-img2.webp"
+                alt="person-img"
+                class="w-10 h-10 rounded-full"
+              />
+              <img
+                src="img/hero-mini1.avif"
+                alt="person-img"
+                class="w-10 h-10 rounded-full"
+              />
+            </div>
+            <div>
+              <i class="fa-solid fa-star text-secondaryColor"></i>
+              <i class="fa-solid fa-star text-secondaryColor"></i>
+              <i class="fa-solid fa-star text-secondaryColor"></i>
+              <i class="fa-solid fa-star text-secondaryColor"></i>
+              <i class="fa-solid fa-star text-secondaryColor"></i>
+              <p class="text-sm font-semibold text-primaryColor">
+                200+ developers joined already
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img
+            src="img/hero-img.avif"
+            alt="hero-img"
+            class="basis-1/2 rounded-xl h-full w-full"
+          />
+        </div>
+      </div>
+    </header>
   </body>
 </html>
