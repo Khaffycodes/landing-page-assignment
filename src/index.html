@@ -20,22 +20,19 @@
     />
   </head>
   <body>
-    <header class="px-20 py-10 h-screen bg-">
-      <div>
-        <!-- <img src="img/logo.avif" alt="logo-img" class="h-20 w-20" /> -->
-        <a href="#" class="text-primaryColor text-xl font-bold"
-          >Tech book club</a
-        >
-      </div>
+    <!-- Header -->
+    <header
+      class="px-20 py-10 h-screen bg-gradient-to-b from-primaryColor to-[#eaf1f4] space-y-20"
+    >
       <div class="mt-[40px] flex items-center justify-between">
         <div class="basis-1/2">
           <h1
-            class="text-6xl font-oswald font-bold leading-14 tracking-widest bg-gradient-to-r from-secondaryColor to-primaryColor bg-clip-text text-transparent"
+            class="text-6xl font-oswald font-bold leading-14 tracking-widest bg-gradient-to-r from-white to-secondaryColor bg-clip-text text-transparent"
           >
             Join the <span class="block">ultimate tech</span
             ><span class="block"> book club</span>
           </h1>
-          <p class="mt-5 mr-[55px] text-[16px] font-oswald text-blackColor">
+          <p class="mt-5 mr-[55px] text-[16px] font-oswald text-whiteColor">
             Turn your reading time into learning time with fellow tech
             enthusiasts. Get curated recommendations, join vibrant discussion,
             and level up your skills one chapter at a time
@@ -85,7 +82,8 @@
         </div>
       </div>
     </header>
-    <section class="px-6 py-16 md:px-20 bg-white space-y-20">
+    <!-- Read together -->
+    <section class="read px-6 py-16 md:px-20 bg-white space-y-20">
       <!-- Read Together -->
       <div class="grid md:grid-cols-2 gap-10 items-center">
         <!-- Image -->
@@ -96,7 +94,7 @@
         />
 
         <!-- Text -->
-        <div class="container mx-auto">
+        <div class="container mx-auto font-oswald">
           <h2
             class="text-3xl md:text-5xl tracking-widest font-bold text-gray-900 mb-4 ml-5"
           >
@@ -136,6 +134,50 @@
               <p class="ml-2">Author Q&A sessions with tech thought leaders</p>
             </li>
           </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Average book club -->
+    <section class="average pt-10 pb-20 px-20">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <!-- Text -->
+        <div>
+          <h2
+            class="px-4 text-3xl md:text-5xl font-oswald font-bold text-gray-900 mb-4"
+          >
+            Not your average book club
+          </h2>
+          <p class="px-4 text-lg text-gray-700 font-oswald">
+            Connect with a community that speaks your language - from
+            <span class="font-bold"> Python To TypeScript </span> and everything
+            in between. Our discussion blend technical depth with practical
+            applications
+          </p>
+        </div>
+
+        <!-- Image -->
+        <img
+          src="img/group.avif"
+          alt="Tech Discussion"
+          class="rounded-lg shadow-md"
+        />
+      </div>
+    </section>
+    <!-- Reading Journey -->
+    <section
+      class="px-20 py-10 bg-gradient-to-b from-primaryColor to-[#eaf1f4] space-y-20"
+    >
+      <div class="text-center">
+        <h2
+          class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 tracking-widest leading-20"
+        >
+          Your tech <span class="block">reading journey</span>
+        </h2>
+        <div class="text-gray-700">
+          <div class="text-center">
+            <i class="ri-corner-up-right-line w-12 mb-2"></i>
+            <p>Choose your membership tier</p>
+          </div>
         </div>
       </div>
     </section>
